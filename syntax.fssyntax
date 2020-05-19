@@ -1,0 +1,24 @@
+% Fucking Simple syntax file for Fucking Simple language
+% Kamil Tokarski
+
+% Operators
+Expr
+    Operator
+        Expr -> Expr
+    -> Expr
+
+Symb
+    -> Expr
+    Ass
+        Expr -> NExpr
+
+Print
+    Expr -> NExpr
+
+Read
+    T:Symbol -> NExpr
+
+LLoop
+    F:SJPTR -> NExpr
+RLoop
+    F:JTPTR -> NExpr
