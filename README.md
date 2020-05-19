@@ -1,0 +1,2 @@
+# fslang
+Fucking simple language
